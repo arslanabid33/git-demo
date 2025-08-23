@@ -1,0 +1,90 @@
+Devops Internship
+Task : Practice at least 20 Linux commands along with git practice (creating a repository, cloning it, branching, creating a text file and commit it. Write a short not on commands and what it does.
+Trainer : Muhammad Jawad Saeed 
+Trainee : Arslan Abid
+Linux Commands:
+ls – Lists files and directories in the current location.
+Syntax : ls
+Shows the contents of a directory.
+cd – Changes the current directory.
+Syntax : cd /path/to/dir
+Navigates to the specified directory.
+mkdir – Creates a new directory.
+Syntax : mkdir myfolder
+Makes a new folder named myfolder.
+rm – Deletes files or directories.
+Syntax: rm file.txt or rm -r folder
+Removes a file or directory.
+cp – Copies files or directories.
+Syntax : cp file1.txt file2.txt
+Copies file1 to file2.
+mv – Moves or renames files and directories.
+Syntax : mv oldname.txt newname.txt
+Renames or moves files/folders.
+chmod – Changes file permissions.
+Sytanx : chmod 755 script.sh
+Sets read/write/execute permissions.
+chown – Changes file ownership.
+Syntax : chown user:group file.txt
+Changes the owner and group of a file.
+ps – Displays running processes.
+Syntax : ps aux
+Shows all current system processes.
+top – Real-time view of system processes and resource usage.
+Syntax : top
+Displays live process info and CPU/memory usage.
+grep – Searches text using patterns.
+Syntax : grep "error" logfile.txt
+Finds lines containing “error” in a file.
+find – Searches for files/directories.
+Syntax : find / -name filename.txt
+Searches for a file by name.
+curl – Transfers data from or to a server (URL).
+Syntax : curl http://example.com
+Fetches content from a URL.
+wget – Downloads files from the web.
+Syntax : wget http://example.com/file.zip
+Downloads a file via HTTP/FTP.
+tar – Archives/compresses files.
+Syntax : tar -czvf archive.tar.gz folder/
+Creates a compressed archive.
+unzip – Extracts files from a .zip archive.
+Syntax : unzip file.zip
+Unzips a ZIP file.
+df – Shows disk space usage.
+Syntax : df -h
+Displays available and used disk space.
+du – Shows disk usage of files/folders.
+Syntax : du -sh folder/
+Summarizes folder size.
+ping – Tests network connectivity to a host.
+Syntax : ping google.com
+Sends ICMP packets to test network.
+whoami – Prints the current logged-in username.
+Syntax : whoami
+Displays your current user.
+hostname – Shows or sets the system's hostname.
+Syntax : hostname
+Prints the system’s network name.
+Git Workflow:
+First you make a .git folder using ‘git init’ command if working on local. Now the folder is under git version control. 
+Create a text file and name it test.txt. Write some thing in it. The changes are not saved to git because the file is untracked or not staged. By default you are working on a ‘master branch’ if you want to make file on a different branch the first create a branch by using git command;
+ Git checkout -b <branch name>
+It will create a new branch and move you to this branch;
+Use command ; git status 
+It will show you the current branch you are working on along with your file is staged or commit.
+Now use command : git add test.txt
+It will stage the file test.txt 
+Then us : git commit -m “with the message’
+It will commit the file and now the changes you made will be tracked because now the file is tracked and under git version control.
+GitHub:
+Github is basically the graphical user interface of git. You make repositories and then make files . It creates , add, commit your file within few clicks.
+Note; donot write codes on Github , always work on your localhost
+Now if you have made repository now you can bring this repo to your local by using : git clone command
+Syntax: git clone “path, Token: Https link”
+Now you repo is linked to git, but the changes will not be on either way unless you push the code to github by using command : git push origin main
+Now your work will be shown in github as well
+Same is the case with Github, you can pull request your code 
+
+
+
