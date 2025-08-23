@@ -85,6 +85,7 @@ Syntax: git clone “path, Token: Https link”
 Now you repo is linked to git, but the changes will not be on either way unless you push the code to github by using command : git push origin main
 Now your work will be shown in github as well
 Same is the case with Github, you can pull request your code 
+the task is done
 
 
 
